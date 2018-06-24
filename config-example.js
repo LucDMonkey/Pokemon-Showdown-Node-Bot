@@ -54,7 +54,7 @@ exports.autoReloginDelay = 60 * 1000;
 * Rooms to join
 */
 
-exports.rooms = ['lobby'];
+exports.rooms = ['anormalroom'];
 
 /*
 * exports.rooms = 'all'; //For joining all rooms
@@ -63,7 +63,7 @@ exports.rooms = ['lobby'];
 * exports.rooms = ['room1', 'room2']; //For joining some rooms
 */
 
-exports.privateRooms = { //Rooms listed here will be ignored by seen command
+exports.privateRooms = true { //Rooms listed here will be ignored by seen command
 	//privateroomname: true
 };
 
